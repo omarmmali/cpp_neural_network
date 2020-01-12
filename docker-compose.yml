@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  application:
+    build: .
+    volumes:
+      - .:/opt/cpp_neural_network
